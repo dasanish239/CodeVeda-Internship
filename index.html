@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Das - Codveda Internship Projects</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; opacity: 0.9; }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .project-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        .project-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .project-card p {
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4); }
+        .level-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 4rem;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Codveda Technology Internship</h1>
+            <p class="subtitle">Web Development Projects by Anish Das</p>
+        </header>
 
+        <div class="projects-grid">
+            <!-- Level 1 Projects -->
+            <div class="project-card">
+                <div class="level-badge">LEVEL 1 - BASIC</div>
+                <h3>📄 Static Website</h3>
+                <p>Multi-page website with navigation, responsive design, HTML & CSS</p>
+                <a href="static-website.html" class="btn">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="level-badge">LEVEL 1 - BASIC</div>
+                <h3>👤 Portfolio Page</h3>
+                <p>Personal portfolio with custom animations and smooth scrolling</p>
+                <a href="portfolio.html" class="btn">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="level-badge">LEVEL 1 - BASIC</div>
+                <h3>⚡ JavaScript Interactive</h3>
+                <p>Dropdowns, modals, forms, and interactive elements</p>
+                <a href="javascript-interactivity.html" class="btn">View Project →</a>
+            </div>
+
+            <!-- Level 2 Projects -->
+            <div class="project-card">
+                <div class="level-badge">LEVEL 2 - INTERMEDIATE</div>
+                <h3>📱 Responsive Design</h3>
+                <p>Flexbox & Grid layouts with photo gallery and blog</p>
+                <a href="responsive-design.html" class="btn">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="level-badge">LEVEL 2 - INTERMEDIATE</div>
+                <h3>✅ To-Do List App</h3>
+                <p>Full CRUD app with filters, priorities, and statistics</p>
+                <a href="todo-app.html" class="btn">View Project →</a>
+            </div>
+
+            <!-- Level 3 Projects -->
+            <div class="project-card">
+                <div class="level-badge">LEVEL 3 - ADVANCED</div>
+                <h3>📋 Task Manager</h3>
+                <p>Full-stack CRUD application with REST API simulation</p>
+                <a href="https://github.com" class="btn">View on GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="level-badge">LEVEL 3 - ADVANCED</div>
+                <h3>🔐 Auth System</h3>
+                <p>User authentication with JWT tokens and password management</p>
+                <a href="https://github.com" class="btn">View on GitHub →</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>✨ Built with ❤️ by Anish Das | Codveda Technology</p>
+            <p>📧 dasanish239@gmail.com | 🔗 <a href="https://github.com" style="color: white;">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+---
+
+## **Step-by-Step GitHub Setup:**
+
+### **1. Create Repository**
+```
+New Repository → codveda-projects → Public → Create
+```
+
+### **2. Upload Files**
+```
+Add file → Upload files → Select all HTML files → Commit
+```
+
+### **3. Create Folder Structure (Optional but Recommended)**
+```
+codveda-projects/
+├── index.html (main landing page)
+├── level1/
+│   ├── static-website.html
+│   ├── portfolio.html
+│   └── javascript-interactivity.html
+├── level2/
+│   ├── responsive-design.html
+│   └── todo-app.html
+└── level3/
+    ├── task-manager.jsx
+    └── auth-system.jsx
+```
+
+### **4. Enable GitHub Pages**
+```
+Settings → Pages → Branch: main → Save
+```
+
+### **5. Your Live URL**
+```
+https://yourusername.github.io/codveda-projects/
